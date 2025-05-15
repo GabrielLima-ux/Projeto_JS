@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <form id="form">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="number" id="numero-a" placeholder="Numero A" required>
+            <input type="number" id="numero-b" placeholder="Numero B" required>
+            <p class="error-message">
+                Está errado, o <b>campo B</b> deve ser maior que o <b>campo A</b>
+            </p>
+            <button type="submit"><b>Enviar</b></button>
+        </form>
+        <p class="sucess-message">
+            Está certo, o campo B: <b>2</b> é maior que o campo A: <b>1</b>
+        </p>
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
